@@ -1,0 +1,16 @@
+{
+    "name": "ai-news-automation",
+    "version": "1.0.0",
+    "description": "Daily and Weekly AI News Automation with Notion and Gemini",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0",
+        "@notionhq/client": "^2.2.15",
+        "axios": "^1.6.7",
+        "dotenv": "^16.4.5",
+        "luxon": "^3.4.4"
+    }
+}
